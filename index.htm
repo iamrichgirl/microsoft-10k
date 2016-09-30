@@ -1,1 +1,52 @@
-Hello World!
+<html>
+    <head>
+        <title>Adopt a Pet, Adopt a Friend</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="clouds">
+                <img id="set1" src="img/clouds.png" alt="" />
+                <img id="set2" src="img/clouds.png" alt="" />
+                <img id="set3" src="img/clouds.png" alt="" />
+            </div>
+
+            <div class="content-area">
+                <h1>Adopt <span>a pet, adopt a</span>Friend</h1>
+                <div class="center-area">
+                    <a class="link-btn" href="#" onclick="document.getElementById('lightbox').style.display='inline';">Why Adopt?</a>
+                </div>
+            </div>
+
+            <div class="animal-area">
+                <div class="cat-area"></div>
+                <div class="dog-area"></div>
+            </div>
+            <div class="rotating-world">
+                <img class="plant1" src="img/plant.png" />
+                <img class="plant2" src="img/plant.png" />
+                <img class="plant3" src="img/plant.png" />
+                <img class="plant4" src="img/plant.png" />
+                <img class="plant5" src="img/plant.png" />
+                <img class="plant6" src="img/plant.png" />
+                <img class="plant7" src="img/plant.png" />
+            </div>
+            
+            <div class="lightbox" id="lightbox" style="display:none;">
+                <div class="pop-area">
+                    <a class="link-btn txt-right" href="#" onclick="document.getElementById('lightbox').style.display='none';">[x] close</a>
+                    <h2>Reasons Why <span>You Should Adopt a Pet</span></h2>
+                    <ul>
+                        <li>Because you'll <strong>save a life</strong></li>
+                        <li>Because you'll <strong>get a great animal</strong></li>
+                        <li>Because all pets are good for your health, but an <strong>adopted pet is good for your self-esteem</strong></li>
+                        <li>Because you're <strong>environmentally responsible</strong></li>
+                        <li>Because you'll <strong>change a homeless animal's whole world</strong></li>
+                    </ul>
+                    <a class="link-btn txt-center" href="http://petfinder.com" target="_blank">Find an Adoptable Near You!</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
